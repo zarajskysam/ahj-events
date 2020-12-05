@@ -10,7 +10,6 @@ export default class GameController {
   init() {
     this.startGame.addEventListener('click', () => {
       if (!this.gamePlay.startGame) {
-        // this.win.innerText = 0;
         this.gamePlay.start();
       }
     });
