@@ -9,8 +9,10 @@ export default class GamePlay {
 
   start() {
     this.startGame = true;
+    // this.possibilityToClick = true;
     this.goblinCount = 0;
     this.playerCount = 0;
+    this.possibilityToClick = true;
     this.goblin = document.createElement('img');
     this.goblin.classList.add('goblin');
     this.goblin.src = './img/goblin.png';
